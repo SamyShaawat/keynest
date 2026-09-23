@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="menu_keynest_root" name="KeyNest" sequence="10"/>
+</odoo>
