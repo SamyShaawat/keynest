@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <menuitem id="menu_keynest_root" name="KeyNest" sequence="10"/>
+    <menuitem id="menu_keynest_root" name="KeyNest" sequence="10" groups="group_keynest_user"/>
+    <menuitem id="menu_keynest_operations" name="Operations" parent="menu_keynest_root" sequence="10"/>
+    <menuitem id="menu_keynest_reporting" name="Reporting" parent="menu_keynest_root" sequence="90"/>
+    <menuitem id="menu_keynest_config" name="Configuration" parent="menu_keynest_root" sequence="100"
+              groups="group_keynest_manager"/>
 </odoo>
